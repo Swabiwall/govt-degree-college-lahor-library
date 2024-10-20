@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('gdc.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+
+form label {
+    display: block;
+    margin-top: 1em;
+}
+
+form input[type="text"], form input[type="email"], form input[type="date"] {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    margin-top: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#message {
+    margin-top: 1em;
+    color: green;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 2px solid #2C3E50;
+    border-radius: 4px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+table thead tr {
+    background-color: #34495E;
+    color: white;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+a {
+    color: #3498DB;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
